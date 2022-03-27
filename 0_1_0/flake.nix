@@ -11,6 +11,7 @@
   inputs.src-NimQml-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-NimQml-0_1_0.owner = "filcuc";
   inputs.src-NimQml-0_1_0.repo  = "nimqml";
+  inputs.src-NimQml-0_1_0.dir   = "";
   inputs.src-NimQml-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

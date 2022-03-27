@@ -11,6 +11,7 @@
   inputs.src-nimqml-master.ref   = "refs/heads/master";
   inputs.src-nimqml-master.owner = "filcuc";
   inputs.src-nimqml-master.repo  = "nimqml";
+  inputs.src-nimqml-master.dir   = "";
   inputs.src-nimqml-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
